@@ -15,12 +15,14 @@ The goal is to reduce model complexity and inference cost while maintaining comp
 ## Repository Structure
 
 ```text
-├── DATASET/
 ├── MODEL/
-│   ├── TEACHER/
+│   ├── TEACHER/ (on Hugging Face)
 │   └── STUDENT/
-├── STUDENT_BASELINE.ipynb
-├── STUDENT_KD.ipynb
+├── TRAINING/
+    ├── STUDENT_BASELINE.ipynb
+    └── STUDENT_KD.ipynb
+    └── VISOBERT_UIT.ipynb
+├── COMPARISON.ipynb
 ├── GRID_SEARCH_VISUALIZATION.ipynb
 ├── .gitignore
 └── README.md
@@ -46,7 +48,7 @@ Run the notebooks in the following order:
 2. `STUDENT_KD.ipynb` — Train TextCNN using Knowledge Distillation.
 3. `GRID_SEARCH_VISUALIZATION.ipynb` — Compare hyperparameter configurations.
 
-Place `train_final.csv`, `val_final.csv`, and `test_final.csv` in the `DATASET/` directory.
+Place dataset directory.
 
 ## Model Architecture
 
