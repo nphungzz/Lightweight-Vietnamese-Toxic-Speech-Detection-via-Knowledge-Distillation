@@ -42,9 +42,9 @@ pip install -r requirements.txt
 
 Run the notebooks in the following order:
 
-1. `STUDENT_BASELINE(2).ipynb` — Train and evaluate the baseline TextCNN.
-2. `STUDENT_KD(3).ipynb` — Train TextCNN using Knowledge Distillation.
-3. `GRID_SEARCH_VISUALIZATION(4).ipynb` — Compare hyperparameter configurations.
+1. `STUDENT_BASELINE.ipynb` — Train and evaluate the baseline TextCNN.
+2. `STUDENT_KD.ipynb` — Train TextCNN using Knowledge Distillation.
+3. `GRID_SEARCH_VISUALIZATION.ipynb` — Compare hyperparameter configurations.
 
 Place `train_final.csv`, `val_final.csv`, and `test_final.csv` in the `DATASET/` directory.
 
