@@ -16,13 +16,12 @@ The goal is to reduce model complexity and inference cost while maintaining comp
 
 ```text
 ├── DATASET/
-├── MODEL(1)/
+├── MODEL/
 │   ├── TEACHER/
 │   └── STUDENT/
-├── STUDENT_BASELINE(2).ipynb
-├── STUDENT_KD(3).ipynb
-├── GRID_SEARCH_VISUALIZATION(4).ipynb
-├── requirements.txt
+├── STUDENT_BASELINE.ipynb
+├── STUDENT_KD.ipynb
+├── GRID_SEARCH_VISUALIZATION.ipynb
 ├── .gitignore
 └── README.md
 ```
